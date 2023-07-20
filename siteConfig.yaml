@@ -6,6 +6,10 @@ meta:
   lang: en-US
 linkChecker:
   severity: warning
+  IgnoreURLs:
+    - "googled3544ba6d2b035ba.html"
+  IgnoreDirs:
+    - "static"
   options:
     CheckExternal: false
 logo:
