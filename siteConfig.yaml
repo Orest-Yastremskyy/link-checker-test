@@ -7,12 +7,10 @@ meta:
 linkChecker:
   severity: warning
   options:
-    IgnoreURLs:
-      - "googled3544ba6d2b035ba.html"
     IgnoreDirs:
       - static
     CheckExternal: false
-    CheckDoctype: false
+    # CheckDoctype: false
 logo:
   image: ./images/logo.png
   altText: Redocly Training
