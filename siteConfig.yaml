@@ -6,11 +6,11 @@ meta:
   lang: en-US
 linkChecker:
   severity: warning
-  IgnoreURLs:
-    - "googled3544ba6d2b035ba.html"
-  IgnoreDirs:
-    - static
   options:
+    IgnoreURLs:
+      - "googled3544ba6d2b035ba.html"
+    IgnoreDirs:
+      - static
     CheckExternal: false
     CheckDoctype: false
 logo:
