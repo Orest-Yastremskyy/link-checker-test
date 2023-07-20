@@ -10,7 +10,7 @@ linkChecker:
     IgnoreDirs:
       - static
     CheckExternal: false
-    # CheckDoctype: false
+    CheckDoctype: false
 logo:
   image: ./images/logo.png
   altText: Redocly Training
