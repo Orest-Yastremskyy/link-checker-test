@@ -2,8 +2,15 @@ openapi: 3.0.3
 servers:
   - url: '//petstore.swagger.io/v2'
 info:
-  description: 
-    <img alt=“Test image” src="images/logo2.png">
+  description: |
+    First image:
+    <img alt="Test image" src="images/logo2.png">
+
+    Second image:
+    ![Test image](https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png?20171228163613)
+
+    Third image:
+    <img alt="Test image" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png?20171228163613">
   version: 1.0.0
   title: Swagger Petstore
   termsOfService: 'http://swagger.io/terms/'
@@ -14,7 +21,8 @@ info:
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 tags:
   - name: pet
-    description: Everything about your Pets. Here is image - ![Test image](https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png?20171228163613)
+    description: 
+      $ref: developer-portal/api1.md
     externalDocs:
       description: Find out more
       url: 'http://swagger.io'
