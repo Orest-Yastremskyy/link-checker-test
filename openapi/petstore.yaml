@@ -2,17 +2,8 @@ openapi: 3.0.3
 servers:
   - url: '//petstore.swagger.io/v2'
 info:
-  description: >-
-    First test image here:
-      <img alt=“Test image” src="https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png?20171228163613">  
-
-    Second test image here
-
-    <img alt=“Test image” src="images/logo2.png">  
-    This is a sample server Petstore server.  You can find out more about
-    Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net,
-    #swagger](http://swagger.io/irc/).  For this sample, you can use the api key
-    `special-key` to test the authorization filters.
+  description: 
+    <img alt=“Test image” src="images/logo2.png">
   version: 1.0.0
   title: Swagger Petstore
   termsOfService: 'http://swagger.io/terms/'
@@ -23,7 +14,7 @@ info:
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 tags:
   - name: pet
-    description: Everything about your Pets
+    description: Everything about your Pets. Here is image - <img alt=“Test image” src="images/logo2.png">
     externalDocs:
       description: Find out more
       url: 'http://swagger.io'
