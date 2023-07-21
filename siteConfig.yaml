@@ -10,7 +10,7 @@ linkChecker:
     CheckExternal: false
     CheckDoctype: false
 logo:
-  image: ./images/logo.png
+  image: ./images/logo2.png
   altText: Redocly Training
 toc:
   enable: true
