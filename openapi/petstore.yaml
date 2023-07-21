@@ -14,7 +14,7 @@ info:
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 tags:
   - name: pet
-    description: Everything about your Pets. Here is image - <img alt=“Test image” src="images/logo2.png">
+    description: Everything about your Pets. Here is image - ![Test image](https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png?20171228163613)
     externalDocs:
       description: Find out more
       url: 'http://swagger.io'
