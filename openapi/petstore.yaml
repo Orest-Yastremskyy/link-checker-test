@@ -4,7 +4,7 @@ servers:
 info:
   description: |
     First image:
-    <img alt="Test image" src="images/logo2.png">
+    <img alt="Test image" src="../images/logo2.png">
 
     Second image:
     ![Test image](https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png?20171228163613)
@@ -22,7 +22,7 @@ info:
 tags:
   - name: pet
     description: 
-      $ref: developer-portal/api1.md
+      $ref: ../developer-portal/api1.md
     externalDocs:
       description: Find out more
       url: 'http://swagger.io'
