@@ -1,4 +1,4 @@
-# Enable analytics
+# Enable analytics TEST
 
 Whether you utilize Google Analytics, Google Tag Manager, Heap.io or something else, it can be enabled with a few lines of configuration in the `siteConfig.yaml`.
 
